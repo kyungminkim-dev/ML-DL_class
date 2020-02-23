@@ -2,7 +2,7 @@
 - k-means Clustering Algorithm(k-평균 알고리즘)은 주어진 데이터를 k개의 cluster(군집)으로 묶는 알고리즘이다. 
 이 알고리즘의 기본 아이디어는 R2(2차원 평면)에서의 주어진 데이터  {pi} (1 <= i <= N, pi=(ai,bi))에 대해 주어진 함수를 최소가 되게 하는 중심(cluster point) x를 찾는 것이다.
 
-본 문제는 Stochastic Gradient Descent Method를 이용해 k-means clustering을 구현해 본다.
+- 본 문제는 Stochastic Gradient Descent Method를 이용해 k-means clustering을 구현해 본다.
 
 아래의 주어진 평균 mu와 공분산 행렬 sigma에 대해 [다변수 정규 분포]를 통해
 각각 1000개씩 총 4000개의 랜덤한 점을 만든다.      
@@ -93,4 +93,5 @@ plt.plot(cluster_new[3][0], cluster_new[3][1], 'wo')
 plt.axis('equal')
 plt.show()
 ```
+![Clustering 결과](./images/Figure_1.png)
 
